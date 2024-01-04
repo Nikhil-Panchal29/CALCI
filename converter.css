@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    /* background-color: rgb(26, 25, 25); */
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url('./MA.png'); /* Replace 'path/to/spacex-image.jpg' with the actual path to your SpaceX image file */
+    background-size: cover;
+    overflow:hidden;
+
+  
+    
+
+}
+
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: #352F44;
+    position: fixed;
+
+   
+}
+
+a{
+    color: #E5C3A6;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.main{
+    height: 400px;
+    width: 500px;
+    background-color: #FAF0E6;
+    position: absolute;
+    top: 200px;
+}
+
+#btn1{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 225px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+}
+#btn2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 305px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+}
+
+#btn3{
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    top: 385px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    
+}
+
+#btn4{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 465px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    
+}
+
+
+#btn5{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 545px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+}
+
+#last{
+    position: absolute;
+    top: 650px;
+    padding: 10px;
+    border: 2px solid rgb(200, 181, 181);
+    border-radius: 10px;
+    background-color:rgb(78, 11, 79) ;
+    color:whitesmoke;
+}
+
+#last:active{
+    opacity: 0.8;
+}
