@@ -67,6 +67,12 @@ a{
     border: 2px solid whitesmoke;
 }
 
+
+#btn2.active,
+#btn2:active {
+    background-color: #a67851;
+}
+
 #btn3{
     height: 40px;
     width: 130px;

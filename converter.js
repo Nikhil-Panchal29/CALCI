@@ -37,8 +37,28 @@ document.getElementById("convertbtn").addEventListener("click", function () {
 
     
     document.getElementById("v2").value = result.toFixed(8); 
-
+    
     
 
 });
+
+
+    // Get all buttons with the class "button"
+    var buttons = document.querySelectorAll('.button');
+
+    // Add a click event listener to each button
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            // Remove the "active" class from all buttons
+            buttons.forEach(function (btn) {
+                btn.classList.remove('active');
+            });
+
+            // Add the "active" class to the clicked button
+            button.classList.add('active');
+        });
+    });
+
+
+
 

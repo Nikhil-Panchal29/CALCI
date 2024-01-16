@@ -95,6 +95,11 @@ a{
     
 }
 
+#btn4.active,
+#btn4:active {
+    background-color: #a67851;
+}
+
 
 #btn5{
     height: 40px;

@@ -81,6 +81,11 @@ a{
     
 }
 
+#btn3.active,
+#btn3:active {
+    background-color: #a67851;
+}
+
 #btn4{
     height: 40px;
     width: 100px;

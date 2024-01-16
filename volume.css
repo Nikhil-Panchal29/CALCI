@@ -109,6 +109,11 @@ a{
     border: 2px solid whitesmoke;
 }
 
+#btn5.active,
+#btn5:active {
+    background-color: #a67851;
+}
+
 #btn1:active,#btn2:active,#btn3:active,#btn4:active,#btn5:active{
     /* color: black; */
     background-color: #a67851;
